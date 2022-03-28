@@ -54,6 +54,7 @@ body { /* changes color of the background of the body */
   height: 8px;
   background-color: black;
   margin: 0px;
+  border: 0px;
 }
 .break-bottom { /* puts a margin underneath the bottom hr element so that there is a separation between the hr element and the footer element */
   margin-bottom: 20px;
