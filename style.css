@@ -17,7 +17,7 @@ header p { /* centers and applies font specifcally to content in header*/
 }
 img { /* styles the image background and rounds the corners of the border of the image*/
   border-radius: 35%;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 35px;
 }
 .image {
