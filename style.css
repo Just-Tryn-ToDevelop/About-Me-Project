@@ -19,6 +19,8 @@ img { /* styles the image background and rounds the corners of the border of the
   border-radius: 35%;
   margin-top: 50px;
   margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
 }
 main { /* indents and centers the content so that the words are not directly on the edge of the screen. Also changes the color of the background and size of the font */
   color: black;
