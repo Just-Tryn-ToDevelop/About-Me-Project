@@ -3,7 +3,7 @@ h1, h2, h3 { /*center, size and apply font to headings*/
   font-family: "comic sans ms", "arial";
   font-size: 27px;
 }
-.intro, .aboutme { /*creates a colored box around specified headings*/
+.intro, .aboutme { /*creates a colored box around headings in the main element*/
   background-color: #d6ccc2;
   width: 210px;
   margin: auto;
@@ -11,16 +11,27 @@ h1, h2, h3 { /*center, size and apply font to headings*/
   padding: 0px;
   padding-right: 10px;
 }
+.whoami, .contact { /* creates a colored box around the header and footer headings */
+  background-color: #989090;
+  width: 300px;
+  margin: auto;
+  /*border-radius: 50%;*/
+  padding: 0px;
+}
+.contact {
+  width: 515px;
+}
 header p { /* centers and applies font specifcally to content in header*/
   text-align: center;
   font-family: "arial", "serif";
 }
+
 img { /* styles the image background and rounds the corners of the border of the image*/
   border-radius: 35%;
-  margin-top: 20px;
-  margin-bottom: 35px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
-.image {
+.image { /* aligns the image in the center via the div element */
 text-align: center; 
 }
 main { /* indents and centers the content so that the words are not directly on the edge of the screen. Also changes the color of the background and size of the font */
@@ -30,7 +41,7 @@ main { /* indents and centers the content so that the words are not directly on 
   padding-left: 10px;
   padding-right: 10px;
   font-size: 18px;
-  padding: 15px;
+  padding-bottom: 15px;
   font-family: "times new roman", "arial";
 }  
 body { /* changes color of the background of the body */
@@ -39,10 +50,13 @@ body { /* changes color of the background of the body */
 .about { /* removes the indent style applied to the the rest of the content within the main element */
   text-indent: 0px;
 }
-.break, hr { /* sizes and colors the div and hr element */
+.break-bottom, .break-top, hr { /* sizes and colors the div and hr element */
   height: 8px;
   background-color: black;
   margin: 0px;
+}
+.break-bottom { /* puts a margin underneath the bottom hr element so that there is a separation between the hr element and the footer element */
+  margin-bottom: 20px;
 }
 /* makes the color of the links change depending on what the user does to the link */
 a:link {color: blue;}
