@@ -15,7 +15,7 @@ header p { /* centers and applies font specifcally to content in header*/
   text-align: center;
   font-family: "arial", "serif";
 }
-img { /* styles the image background and rounds the corners of the border of the image*/
+.image, img { /* styles the image background and rounds the corners of the border of the image*/
   border-radius: 35%;
   margin-top: 50px;
   margin-bottom: 35px;
@@ -37,7 +37,7 @@ body { /* changes color of the background of the body */
 .about { /* removes the indent style applied to the the rest of the content within the main element */
   text-indent: 0px;
 }
-div, hr { /* sizes and colors the div and hr element */
+.break, hr { /* sizes and colors the div and hr element */
   height: 8px;
   background-color: black;
   margin: 0px;
