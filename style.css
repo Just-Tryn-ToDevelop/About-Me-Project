@@ -11,6 +11,9 @@ h1, h2, h3 { /*center, size and apply font to headings*/
   padding: 0px;
   padding-right: 10px;
 }
+header {
+  margin-top: 15px;
+}
 .whoami, .contact { /* creates a colored box around the header and footer headings */
   background-color: #989090;
   width: 300px;
